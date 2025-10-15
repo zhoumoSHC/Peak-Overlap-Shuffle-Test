@@ -5,7 +5,8 @@ A randomization-based statistical framework to evaluate whether the observed ove
 **一、运行随机化检验**
 
 在终端运行：
-```bash peak_overlap_shuffle_plot.sh \
+```
+  bash peak_overlap_shuffle_plot.sh \
   -a A.bed -b B.bed -g hg38.chrom.sizes \
   -w 150 -n 1000 -o overlap_results.txt \
   --seed 20251015
